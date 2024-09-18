@@ -1,0 +1,20 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Victor Khovanov", email = "victorkhovtko@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ruff>=0.6.5",
+    "mypy>=1.11.2",
+    "jupyter>=1.1.1",
+    "numpy>=2.1.1",
+    "pandas>=2.2.2",
+]
